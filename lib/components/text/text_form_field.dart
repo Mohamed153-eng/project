@@ -39,8 +39,8 @@ class ReusableTextFormField extends StatelessWidget {
     );
   }
 }
-class ReusableTextFormField_log extends StatelessWidget {
-  ReusableTextFormField_log({
+class ReusableTextFormField_log_reg extends StatelessWidget {
+  ReusableTextFormField_log_reg({
     required this.text,
     required this.prefix,
     required this.textInputType,

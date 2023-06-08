@@ -10,6 +10,7 @@ class LoginScreen extends StatelessWidget {
   LoginScreen({Key? key}) : super(key: key);
   static const String loginScreenRoute = 'login screen';
   final _formKey = GlobalKey<FormState>();
+
   @override
   Widget build(BuildContext context) {
     return SafeArea(
@@ -54,7 +55,7 @@ class LoginScreen extends StatelessWidget {
                         ],
                       ),
                     ),
-                    ReusableTextFormField_log(
+                    ReusableTextFormField_log_reg(
                       text: 'Email',
                       prefix: Icon(Icons.email),
                       textInputType: TextInputType.emailAddress,
@@ -65,7 +66,7 @@ class LoginScreen extends StatelessWidget {
                         return null;
                       },
                     ),
-                    ReusableTextFormField_log(
+                    ReusableTextFormField_log_reg(
                       text: 'Password',
                       prefix: Icon(Icons.lock),
                       suffix: IconButton(

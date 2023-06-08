@@ -39,7 +39,7 @@ class MyApp extends StatelessWidget {
           IntroScreen.introductionScreenRoute: (context) => IntroScreen(),
           LoginScreen.loginScreenRoute: (context) => LoginScreen(),
           RegisterScreen.registerScreenRoute: (context) =>
-              const RegisterScreen(),
+               RegisterScreen(),
           ForgetScreen.forgetScreenRoute: (context) => const ForgetScreen(),
           ForgottenPasswordScreen.forgottenPasswordScreenRoute: (context) =>
               const ForgottenPasswordScreen(),
