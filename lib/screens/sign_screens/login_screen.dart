@@ -55,7 +55,7 @@ class LoginScreen extends StatelessWidget {
                         ],
                       ),
                     ),
-                    ReusableTextFormField_log_reg(
+                    ReusableTextFormField(
                       text: 'Email',
                       prefix: Icon(Icons.email),
                       textInputType: TextInputType.emailAddress,
@@ -66,7 +66,7 @@ class LoginScreen extends StatelessWidget {
                         return null;
                       },
                     ),
-                    ReusableTextFormField_log_reg(
+                    ReusableTextFormField(
                       text: 'Password',
                       prefix: Icon(Icons.lock),
                       suffix: IconButton(

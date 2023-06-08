@@ -41,7 +41,7 @@ class RegisterScreen extends StatelessWidget {
                         ],
                       ),
                     ),
-                    ReusableTextFormField_log_reg(
+                    ReusableTextFormField(
                       text: 'User name',
                       prefix: Icon(Icons.person),
                       textInputType: TextInputType.text,
@@ -55,7 +55,7 @@ class RegisterScreen extends StatelessWidget {
                     SizedBox(
                       height: 6.0,
                     ),
-                    ReusableTextFormField_log_reg(
+                    ReusableTextFormField(
                       text: 'Email',
                       prefix: Icon(Icons.email),
                       textInputType: TextInputType.emailAddress,
@@ -70,7 +70,7 @@ class RegisterScreen extends StatelessWidget {
                     SizedBox(
                       height: 6.0,
                     ),
-                    ReusableTextFormField_log_reg(
+                    ReusableTextFormField(
                       text: 'Phone Number',
                       prefix: Icon(Icons.phone_android_rounded),
                       textInputType: TextInputType.number,
@@ -85,7 +85,7 @@ class RegisterScreen extends StatelessWidget {
                     SizedBox(
                       height: 6.0,
                     ),
-                    ReusableTextFormField_log_reg(
+                    ReusableTextFormField(
                       text: 'ID Cart',
                       prefix: Icon(Icons.credit_card_sharp),
                       textInputType: TextInputType.text,
@@ -99,7 +99,7 @@ class RegisterScreen extends StatelessWidget {
                     SizedBox(
                       height: 6.0,
                     ),
-                    ReusableTextFormField_log_reg(
+                    ReusableTextFormField(
                       text: 'Password',
                       prefix: Icon(Icons.lock),
                       textInputType: TextInputType.visiblePassword,
